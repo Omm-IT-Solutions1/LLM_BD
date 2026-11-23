@@ -119,6 +119,18 @@ In addition to the keyword filter, every candidate RFP must pass a current-month
 6. This filter is evaluated fresh at the start of every run using that run's actual date. It governs only what gets newly scraped and saved going forward.
 7. Do not re-evaluate, modify, or delete previously saved records in `Source/Scraped/` against a later run's cutoff date — historical records are preserved regardless of their issue/start date (see File Rules).
 
+## Past-Due Bid Addendum Watch
+
+Whenever new bids are being scraped, any bid (previously saved or encountered on the portal) whose **Due Date has already passed** (e.g. due 11/16/2026, run on 11/23/2026) is handled under this rule instead of being treated as a normal new bid.
+
+1. For each past-due bid, search only for **new addendums, amendments, or updates** (revised due date, Q&A, new attachments, etc.) — not for anything else.
+2. Watch window: **5 business days after the Due Date** (Monday–Friday only; do not count Saturdays or Sundays). Example: due Monday 11/16/2026 → watch through Monday 11/23/2026 (11/17, 11/18, 11/19, 11/20, 11/23).
+3. If a new addendum/update is found within the window, update the existing record for that bid (do not create a duplicate), note the addendum/update and its date, and include it in the run's findings/email as an updated bid.
+4. If **no** new addendum or update is found within the 5-business-day window, **skip** the bid: do not enter it with the newly scraped bids, do not create a new record for it, and do not include it in the findings email.
+5. Once the 5-business-day window has passed with no addendum/update, stop checking that bid on later runs.
+6. If a past-due bid's due date cannot be determined, do not guess; apply the normal Date Filter and Data Accuracy rules.
+7. This rule does not delete or alter previously saved historical records (see [File Rules](#file-rules)); it only controls whether a past-due bid is re-entered/re-reported with new scrape results.
+
 ## Research Flow
 
 Follow this sequence for every URL in `URL/url_reachable.md`.
@@ -348,6 +360,7 @@ Before finishing a research run, verify:
 - [ ] RFP candidates were checked against the approved keyword list and tagged Matched or Unmatched after reading the full description/scope/codes, not just the title.
 - [ ] RFP candidates were checked against the current-month date filter (Issue Date, falling back to Start Date; cutoff = 1st of current month at run-time).
 - [ ] Every RFP meeting the date filter was saved regardless of Match Status — none were silently discarded for lacking a keyword match.
+- [ ] Past-due bids (Due Date already passed) were checked only for new addendums/updates within 5 business days (weekends excluded) after the Due Date; those with none were skipped and not entered with newly scraped bids.
 - [ ] Only RFPs meeting the date filter were saved; previously saved historical records were left untouched.
 - [ ] Every saved RFP has an official source URL.
 - [ ] Important available dates, including issue/start and end/closing dates when available, were captured.

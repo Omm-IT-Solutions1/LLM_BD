@@ -39,10 +39,14 @@
             "id": "6e2445dc810d9acf",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "AGENTS.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "AGENTS"
             }
           }
         ],
@@ -80,7 +84,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "claude.md",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -104,7 +108,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -215,41 +220,41 @@
   },
   "active": "6e2445dc810d9acf",
   "lastOpenFiles": [
-    "Source/Scraped/2026-09-16_NYCHA-RFP-521201-IT-Staff-Augmentation-Services.md",
-    "Source/Scraped/2026-09-16_NYC-HH-RFP-2845-IT-Supplemental-Staffing-Services.md",
-    "Source/Scraped/2026-09-16_NORTA-IFB-2026-020-360-IT-Managed-Services.md",
-    "Source/Scraped/2026-09-16_MSCS-Supplemental-RN-and-LPN-Staffing-Services.md",
-    "Source/Scraped/2026-09-16_Hawaii-DOH-IT-Services-Endpoint-Devices.md",
-    "AGENTS.md",
-    "CLAUDE.md",
-    "URL/reachable/blocked.md",
-    "URL/reachable/easily_scrapable.md",
+    "Source/Scraped/sedlrdMCO",
+    "Source/Scraped/sedxRSgpn",
+    "Source/Scraped/sedIwd2S0",
+    "URL/run_log_2026-10-26.md",
+    "URL/run_log_2026-10-25.md",
+    "Source/Scraped/2026-10-26_Georgia-Public-Relations-and-Communication.md",
+    "Source/Scraped/2026-10-26_Georgia-MGA-Student-Housing-Task-Order.md",
+    "Source/Scraped/2026-10-25_fairmount-paving.md",
+    "Source/Scraped/2026-10-25_Work-Zone-Temporary-Traffic-Control-Devices.md",
+    "Source/Scraped/2026-10-25_Welcome-Center-Integrated-Facility-Services.md",
+    "Source/Scraped/2026-10-25_UGA-R-V-Savannah-Haul-Out-Maintenance-and-Repair.md",
+    "Source/Scraped/2026-10-25_Truck-Body-and-Aerial-Device-Truck-Mounted-Telescoping-with.md",
+    "Source/Scraped/2026-10-25_TITLE-INSURANCE-SERVICES-FOR-THE-COUNTY-OF-MERCER.md",
+    "Source/Scraped/2026-10-25_TDCJ-Wynne-Unit-Procurement-of-HVAC-Parts-and-Accessories.md",
+    "Source/Scraped/2026-10-25_TDCJ-Goree-Unit-Procurement-of-HVAC-Parts-and-Accessories.md",
+    "Source/Scraped/2026-10-25_TDCJ-Coffield-Unit-Procurement-of-HVAC-Equipment-and-Accesso.md",
+    "Source/Scraped/2026-10-25_T32-MitigationWetlandCredits-PI-0017597-Jenkins-194325.md",
+    "Source/Scraped/2026-10-25_T32-D4-PavePres-Coffee-SR107-193681.md",
+    "Source/Scraped/2026-10-25_T32-D4-PavePRes-Coffee-SR268-193832.md",
+    "Source/Scraped/2026-10-25_T32-D3-PCC-SR22-Muscogee-193747.md",
+    "Source/Scraped/2026-10-25_T32-D1-ShortLinePave-Sr-9-Lumpkin-194032.md",
+    "Source/Scraped/2026-10-25_Standby-Generator-Service-Repair-Appurtenant-Work.md",
+    "Source/Scraped/2026-10-25_SMALL-BUSINESS-DIRECT-INSTALL-CONTRACTOR-S-FOR-COMMERCIAL-EN.md",
+    "Source/Scraped/2026-10-25_SLUDGE-HAULING-RE-BID.md",
+    "Source/Scraped/2026-10-25_RFQ-for-Architect-Engineer-Services-Student-Health-Center-Ex.md",
+    "Source/Scraped/2026-10-25_RFQ-Auditor-services.md",
+    "Source/Scraped/2026-10-25_RFQ-26-67-Non-Legal-Professional-Services-For-A-One-1-Year-P.md",
+    "Source/Scraped/2026-10-25_RFP-for-Municipal-Prosecutor-26-04.md",
+    "sedjk75hE",
     "CLAUDE.md.tmp.116840.20494d208646",
     "CLAUDE.md.tmp.116840.0681ff2c0c7c",
-    "URL/url_not_applicable.md",
-    "Source/Scraped/2026-09-11_VA-621I-Healthcare-Staffing-RFP.md",
-    "Source/Scraped/2026-09-11_RFP-102226-Uncrewed-Systems-Managed-Services.md",
-    "Source/Scraped/2026-09-11_Invest-Alberta-Recruitment-Support-Services.md",
-    "Source/Scraped/2026-09-11_Frederick-County-Business-Analysis-Project-Management-Consulting-RFP.md",
-    "Source/Scraped/2026-09-11_Detroit-Public-Schools-Supplemental-Staffing-RFP.md",
-    "Source/Scraped/2026-09-11_DC-Water-IT-Professional-Services-RFP.md",
-    "Source/Scraped/2026-09-11_Columbia-Public-Schools-Security-Access-Controls-RFP.md",
-    "Source/Scraped/2026-09-11_City-of-Stamford-Enterprise-SIP-Trunking-RFP.md",
-    "Source/Scraped/2026-09-11_City-of-Lynchburg-EMS-Staffing-Assessment-RFP.md",
-    "Source/Scraped/2026-09-11_ACRE-IT-Contingency-Staffing-Services.md",
     "URL/reachable/blocked.md.tmp.116840.7c79562495bd",
     "URL/reachable/easily_scrapable.md.tmp.116840.50176fcf0fdf",
-    "URL/url_reachable.md",
     "URL/reachable",
     "URL/url_not_applicable.md.tmp.116840.539b9a5ea3bd",
-    "URL/url_reachable.md.tmp.116840.b0aac14616d0",
-    "URL/url_reachable.md.tmp.116840.0f2300caf6fb",
-    "URL/url_reachable.md.tmp.116840.a6c536ab0b6f",
-    "URL/url_reachable.md.tmp.116840.22d53cd08bf7",
-    "Source/Scraped/192_procurement_opengov_com_portal_cheyennecity.md",
-    "Source/Scraped/048_arkansas_ionwave_net.md",
-    "Source/Scraped/015_acwd_bonfirehub_com_portal.md",
-    "Source/Scraped/004_njstart_gov.md",
-    "Source/Scraped/191_procurement_opengov_com_portal_brevardschools.md"
+    "URL/url_reachable.md.tmp.116840.b0aac14616d0"
   ]
 }

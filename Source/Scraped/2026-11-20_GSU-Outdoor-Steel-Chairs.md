@@ -1,0 +1,32 @@
+# GSU - Outdoor Steel Chairs
+
+#2026-11-20
+rfp name: GSU - Outdoor Steel Chairs
+
+- **RFP / Solicitation Number:** 50900-eRFQ-002207-2027
+- **Agency / Organization:** Georgia State University
+- **Posted Date:** 2026-11-20
+- **Issue / Start Date:** 2026-11-20
+- **End / Closing Date:** 2026-12-08
+- **Due Date:** 2026-12-08
+- **Question Submission Due Date:** Not available
+- **POC / Buyer:** Jan Rivers jrivers25@gsu.edu
+- **Location:** Georgia
+- **Solicitation Type:** eRFQ
+- **Match Status:** Unmatched
+- **Matched Keywords:** None
+- **NAICS / NIGP / UNSPSC Codes:** Not available
+- **Source URL:** https://bids01.jaggaer.com/apps/Router/PublicEvent?CustomerOrg=Georgia&FromBranded=true
+- **Retrieved:** 2026-11-23 (UTC)
+
+## Description
+
+Supply of 48 outdoor chairs.
+
+## Relevance
+
+Furniture goods; no approved keyword applies.
+
+## Source
+
+- Official source: https://bids01.jaggaer.com/apps/Router/PublicEvent?CustomerOrg=Georgia&FromBranded=true
